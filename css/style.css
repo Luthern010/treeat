@@ -37,7 +37,7 @@ header {
    position: sticky;
    top: 0;
 }
-header:hover{
+.header-container a:hover{
    background-color: #fff;
    color: #222;
  }
@@ -46,7 +46,7 @@ header:hover{
    font-family: 'Pacifico', sans-serif;
    font-size: 4rem;
    color:#419c8b;
-   margin-bottom: 3rem;
+   margin-bottom: 1rem;
    padding-left: 4rem;
    text-transform: uppercase;
    text-align: left;
