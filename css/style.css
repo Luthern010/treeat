@@ -37,10 +37,6 @@ header {
    position: sticky;
    top: 0;
 }
-.header-container nav ul li a:hover{
-   background-color: #fff;
-   color: #222;
- }
 
 .head-container h1{
    font-family: 'Pacifico', sans-serif;
@@ -64,6 +60,7 @@ nav ul {
 
 nav ul li {
    margin-right: 20px;
+   position: relative;
    font-family: 'Poppins', sans-serif;
    font-weight: 600px;
    font-size: large;
@@ -73,6 +70,8 @@ nav ul li {
    justify-content: center;
    text-align: center;
    align-items: center;
+   background-color: #fff;
+   color: #222;
 }
 
 nav ul li::hover{
