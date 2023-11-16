@@ -36,13 +36,13 @@ header {
    padding: 4px 0;
    position: sticky;
    top: 0;
+   margin-bottom: 2rem;
 }
 
 .head-container h1{
    font-family: 'Pacifico', sans-serif;
    font-size: 4rem;
    color:#419c8b;
-   margin-bottom: 1rem;
    padding-left: 4rem;
    text-transform: uppercase;
    text-align: left;
@@ -61,21 +61,19 @@ nav ul {
 nav ul li {
    margin-right: 20px;
    position: relative;
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Nunito', sans-serif;
    font-weight: 600px;
    font-size: large;
    height: 25px;
    width: 60px;
    border-radius: 5px;
-   justify-content: center;
    text-align: center;
-   align-items: center;
-   background-color: #fff;
-   color: #222;
 }
 
-nav ul li::hover{
-   background-color: #131111ae;
+nav ul li:hover{
+   color: #000000;
+   background-color: #ffffffae;
+   
 }
 nav a {
    text-decoration: none;
@@ -87,6 +85,7 @@ nav a {
    display:grid;
    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
    gap:2rem;
+   margin: 0 1rem;
 }
 
 .container .products-container .product{
@@ -228,8 +227,15 @@ nav a {
    background: #444;
    color:#fff;
 }
+::-webkit-scrollbar{
+   width: 2rem;
+}
 
-
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+   background: transparent;
+   box-shadow: inset 0 0 6px #0000004d;
+}
 @media (max-width:991px){
 
    html{
