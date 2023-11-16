@@ -37,9 +37,9 @@ header {
    position: sticky;
    top: 0;
 }
-header:first-child:hover{
-   background-color: transparent;
-   color: #fff;
+header:hover{
+   background-color: #fff;
+   color: #222;
  }
 
 .head-container h1{
